@@ -161,6 +161,10 @@ PRODUCT_PACKAGES += \
     libxml2 \
     Snap
 
+# ConfigPanel
+PRODUCT_PACKAGES += \
+    ConfigPanel
+
 # CNE
 PRODUCT_PACKAGES += \
     cneapiclient \

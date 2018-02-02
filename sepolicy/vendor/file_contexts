@@ -27,6 +27,10 @@
 /sys/devices/soc/soc:fpc1020.*/irq                            u:object_r:sysfs_fpc_dev:s0
 /sys/devices/soc/soc:fpc1020.*/hw_reset                       u:object_r:sysfs_fpc_dev:s0
 /sys/devices/soc/soc:fpc1020.*/wakeup_enable                  u:object_r:sysfs_fpc_dev:s0
+/sys/devices/soc/soc:fingerprint_fpc/proximity_state          u:object_r:sysfs_fps_proximity:s0
+/sys/devices/soc/soc:fingerprint_goodix/proximity_state       u:object_r:sysfs_fps_proximity:s0
+/sys/devices/soc/c178000\.i2c/i2c-4/4-0020/input/input[0-9]+/reversed_keys      u:object_r:sysfs_touchpanel:s0
+
 
 # Mlipay
 /(vendor|system/vendor)/bin/mlipayd                 u:object_r:hal_mlipay_default_exec:s0
