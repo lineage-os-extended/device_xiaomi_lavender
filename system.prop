@@ -21,7 +21,9 @@ DEVICE_PROVISIONED=1
 # Set network mode to (T/L/G/W/1X/EVDO, T/G/W/L) for 7+5 mode device on DSDS mode
 #
 ro.telephony.default_network=22,20
-
+ro.telephony.default_cdma_sub=0
+persist.sys.timezone=Asia/Shanghai
+persist.sys.qcom-brightness 4095
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
 debug.sf.latch_unsignaled=1
@@ -31,6 +33,7 @@ dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 #Disable Skip Validate
 sdm.debug.disable_skip_validate=1
+
 #Property to enable display default color mode
 vendor.display.enable_default_color_mode=0
 
@@ -58,7 +61,7 @@ persist.mm.enable.prefetch=true
 #property to enable narrow search range for video encoding
 vidc.enc.target_support_bframe=1
 vendor.vidc.enc.disable_bframes=1
-vendor.vidc.dec.enable.downscalar=1
+vendor.vidc.dec.enable.downscalar=0
 
 # enable PQ feature by default
 vendor.vidc.enc.disable.pq=false
@@ -178,10 +181,10 @@ ro.vendor.sensors.sta_detect=true
 #Motion Detector
 ro.vendor.sensors.mot_detect=true
 #enable pickup gesture
-ro.vendor.sensors.pug = true
+ro.vendor.sensors.pug=true
 
 #Expose aux camera for below packages
-camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,com.longcheertel.cit
+camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,com.longcheertel.cit
 
 # enable b-services aging propagation
@@ -189,15 +192,21 @@ ro.vendor.qti.sys.fw.bservice_enable=true
 
 #disable UBWC for camera
 persist.vendor.camera.preview.ubwc=0
+
+
 persist.vendor.camera.isp.clock.optmz=0
+
 persist.vendor.camera.isp.turbo=1
 persist.vendor.camera.imglib.usefdlite=1
 persist.vendor.camera.expose.aux=1
-persist.vendor.camera.HAL3.enabled=1
 
+
+persist.vendor.camera.HAL3.enabled=1
 # add for exif info
 persist.vendor.camera.manufacturer=Xiaomi
 persist.vendor.camera.model=Redmi Note 7
+# HAL1 apps list
+vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android
 
 #set maximum supported adapter voltage
 persist.chg.max_volt_mv=9000
@@ -262,7 +271,3 @@ persist.radio.VT_HYBRID_ENABLE=1
 
 # dpi
 ro.sf.lcd_density=440
-
-# Maintainer
-ro.mk.maintainer=subdragonzj
-
