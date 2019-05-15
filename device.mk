@@ -333,7 +333,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.qcom:64
+    android.hardware.power@1.1-service-qti
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
