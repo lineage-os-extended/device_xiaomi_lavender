@@ -1355,7 +1355,7 @@ vendor/firmware/a530_gpmu.fw2
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 
-# Graphics - from MI 8 Lite platina-user 9 PKQ1.181007.001 8.12.13 release-keys
+# Graphics - from taimen QPP1.190205.018.B4
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
@@ -1371,9 +1371,6 @@ vendor/lib64/libCB.so
 vendor/lib64/libgsl.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
-vendor/lib64/libllvm-qgl.so
-vendor/lib64/libmm-disp-apis.so
-vendor/lib64/libmm-qdcm.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/librs_adreno_sha1.so
 vendor/lib64/librs_adreno.so
@@ -1397,6 +1394,11 @@ vendor/lib/libOpenCL.so
 vendor/lib/librs_adreno_sha1.so
 vendor/lib/librs_adreno.so
 vendor/lib/libRSDriver_adreno.so
+
+# Graphics - from MI 8 Lite platina-user 9 PKQ1.181007.001 8.12.13 release-keys
+vendor/lib64/libmm-disp-apis.so
+vendor/lib64/libllvm-qgl.so
+vendor/lib64/libmm-qdcm.so
 
 # Graphics (HDR) - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/lib/libhdr_tm.so
