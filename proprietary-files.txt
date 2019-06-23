@@ -1,4 +1,4 @@
-# ADSP
+# ADSP - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/bin/adsprpcd
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsp_hvx_callback_skel.so
@@ -15,7 +15,7 @@ vendor/lib64/libfastcvopt.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 
-# ADSP modules
+# ADSP modules - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/etc/scve/facereco/gModel.dat
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
@@ -51,7 +51,7 @@ lib/com.qualcomm.qti.ant@1.0.so
 lib64/com.qualcomm.qti.ant@1.0.so
 -lib64/libantradio.so
 
-# ANT+ (vendor)
+# ANT+ (vendor) - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/lib/com.qualcomm.qti.ant@1.0.so
 vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
@@ -61,7 +61,7 @@ vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 lib64/libaptX_encoder.so
 lib64/libaptXHD_encoder.so
 
-# Audio
+# Audio - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/firmware/dbmd4_va_fw.bin
 vendor/firmware/tfa98xx.cnt
 vendor/firmware/voice_amodel.bin
@@ -92,7 +92,7 @@ vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcvirt.so
 
-# Audio ACDB - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 9.4.12 release-keys
+# Audio ACDB - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
@@ -103,7 +103,7 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Bluetooth - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 9.4.12 release-keys
+# Bluetooth - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/bin/btnvtool
 vendor/bin/hci_qcomm_init
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -115,7 +115,7 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
 
-# Camera - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 9.4.12 release-keys
+# Camera - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libqomx_core.so
@@ -192,7 +192,7 @@ vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 
-# Camera XML
+# Camera XML - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/etc/camera/camera_config.xml
 vendor/etc/camera/csidtg_camera.xml
 vendor/etc/camera/csidtg_chromatix.xml
@@ -222,14 +222,14 @@ vendor/etc/camera/model_back.dlc
 vendor/etc/camera/model_front.dlc
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 
-# Camera actuators
+# Camera actuators - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/lib/libactuator_lavender_imx486_ofilm_i_bu64982.so
 vendor/lib/libactuator_lavender_imx486_ofilm_i_dw9714.so
 vendor/lib/libactuator_lavender_ov12a10_sunny_ii_dw9714.so
 vendor/lib/libactuator_lavender_s5kgm1_ofilm_i_dw9800.so
 vendor/lib/libactuator_lavender_s5kgm1_sunny_ii_dw9800.so
 
-# Camera mmcamera
+# Camera mmcamera - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_frame_algorithm.so
@@ -358,7 +358,7 @@ vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
-# Camera chromatix
+# Camera chromatix - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/lib/libchromatix_csidtg_common.so
 vendor/lib/libchromatix_csidtg_cpp_preview.so
 vendor/lib/libchromatix_csidtg_postproc.so
@@ -1066,7 +1066,7 @@ vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_preview_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_video_3a.so
 
 
-# Camera firmware - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 9.4.12 release-keys
+# Camera firmware - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/firmware/cpp_firmware_v1_1_1.fw
 vendor/firmware/cpp_firmware_v1_1_6.fw
 vendor/firmware/cpp_firmware_v1_10_0.fw
@@ -1079,11 +1079,11 @@ vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
-# Camera OIS - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 9.4.12 release-keys
+# Camera OIS - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/lib/libois_bu63165.so
 vendor/lib/libois_lc898122.so
 
-# Camera HIDL - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 9.4.12 release-keys
+# Camera HIDL - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 
 
@@ -1219,7 +1219,7 @@ vendor/lib/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 
-# Fingerprint firmware - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 9.4.12 release-keys
+# Fingerprint firmware - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/firmware/goodixfp.b00
 vendor/firmware/goodixfp.b01
 vendor/firmware/goodixfp.b02
@@ -1239,7 +1239,7 @@ vendor/firmware/fpctzappfingerprint.b06
 vendor/firmware/fpctzappfingerprint.b07
 vendor/firmware/fpctzappfingerprint.mdt
 
-# Fingerprint sensor - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 9.4.12 release-keys
+# Fingerprint sensor - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
 vendor/bin/qfp-daemon
 vendor/etc/permissions/com.fingerprints.extension.xml
@@ -1256,7 +1256,7 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
-# FM - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 9.4.12 release-keys
+# FM - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 lib/libfm-hci.so
 lib/fm_helium.so
 lib64/libfm-hci.so
@@ -1289,7 +1289,7 @@ vendor/lib/vendor.qti.hardware.factory@1.0.so
 vendor/lib64/vendor.qti.data.factory@1.0.so
 vendor/lib64/vendor.qti.hardware.factory@1.0.so
 
-# Keymaster - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 9.4.12 release-keys
+# Keymaster - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
@@ -1345,7 +1345,7 @@ vendor/lib64/vendor.qti.gnss@1.1.so
 vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 
-# GPU firmware - from Redmi Note 7 lavender-user 9 PKQ1.180904.001 9.4.12 release-keys
+# GPU firmware - from Redmi Note 7  lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/firmware/a512_zap.b00
 vendor/firmware/a512_zap.b01
 vendor/firmware/a512_zap.b02
@@ -1508,7 +1508,7 @@ vendor/lib64/libvpphvx.so
 vendor/lib64/libvpptestutils.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 
-# Mlipay
+# Mlipay - form lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/bin/mlipayd@1.1
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
 vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so
@@ -1701,7 +1701,7 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 
-# Sensors
+# Sensors - form lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 vendor/bin/sensors.qti
 vendor/bin/init.qcom.sensors.sh
 vendor/etc/Diag.cfg
@@ -1718,7 +1718,7 @@ vendor/lib64/libsensor_reg.so
 vendor/lib64/libsensor1.so
 vendor/lib64/sensors.ssc.so
 
-# Soter
+# Soter -form lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
 -app/SoterService/SoterService.apk
 -framework/vendor.qti.hardware.soter-V1.0-java.jar
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
@@ -1729,6 +1729,9 @@ vendor/lib/vendor.qti.hardware.soter@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
+# subsystem - form lavender-user 9 PKQ1.180904.001 V10.3.2.0.PFGCNXM release-keys
+vendor/lib/libsubsystem_control.so
+vendor/lib64/libsubsystem_control.so
 
 # Thermal
 vendor/etc/thermal-engine.conf
