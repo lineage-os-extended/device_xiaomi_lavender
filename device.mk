@@ -335,6 +335,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# XiaomiPocketMode
+PRODUCT_PACKAGES += \
+   XiaomiPocketMode
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.1-service-qti
